@@ -8,7 +8,6 @@ import static org.junit.Assert.assertTrue;
 public class ProgramaTest {
     private Programa programa = new Programa();
 
-
     @Test
     public void testEhPositivo() {
         assertTrue(programa.ehPositivo(10));
@@ -23,11 +22,6 @@ public class ProgramaTest {
     public void testMenorQueZeroEhPositivo() {
         assertFalse(programa.ehPositivo(-9));
     }
-
-
-
-
-
 }
 
 

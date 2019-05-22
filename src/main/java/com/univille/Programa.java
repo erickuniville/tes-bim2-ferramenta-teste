@@ -1,21 +1,14 @@
+package com.univille;
 
-    package com.univille;
-
-    class Programa {
-
-
-        boolean ehPositivo(int number) {
-            if (number >= 0) {
-                return true;
-            }
-
-            return false;
+class Programa {
+    boolean ehPositivo(int number) {
+        if (number >= 0) {
+            return true;
         }
 
-
-
-
+        return false;
     }
+}
 
 
 
